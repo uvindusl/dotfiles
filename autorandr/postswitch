@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Log the change
+echo "$(date): Monitor configuration changed" >> /tmp/monitor-switch.log
+
+# Wait for display to stabilize
+sleep 2
+
+# Restart polybar
+$HOME/.config/polybar/launch_polybar.sh
+
+# Optional: Restart wallpaper
+feh --bg-fill /home/uvindu/Pictures/Wallpapers/wallpaper.jpg
