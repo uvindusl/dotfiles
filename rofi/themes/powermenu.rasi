@@ -1,0 +1,155 @@
+/* Copyright (C) 2020-2022 Aditya Shakya <adi1090x@gmail.com> */
+/* Everyone is permitted to copy and distribute copies of this file under GNU-GPL3 */
+
+configuration {
+    show-icons:                     false;
+    display-drun:                   "";
+    drun-display-format:            "{name}";
+    disable-history:                false;
+    click-to-exit:                  true;
+    location:                       0;  /* Changed from 4 to 0 (center) */
+}
+
+@import "new_colors.rasi"
+
+window {
+    transparency:                   "real";
+    background-color:               @background;
+    text-color:                     @foreground;
+    border:                         2px;
+    border-color:                   @brdr;
+    border-radius:                  10px;
+    width:                          400px;  /* Increased width */
+    x-offset:                       0;      /* Centered */
+    y-offset:                       0;      /* Centered */
+    location:                       center; /* Center of screen */
+    anchor:                         center; /* Anchor to center */
+}
+
+prompt {
+    enabled:                        true;
+    margin:                         0px 0px 0px 0px;
+    padding:                        10px;
+    background-color:               @background-alt;
+    text-color:                     @foreground;
+    border:                         0px 0px 0px 0px;
+    border-color:                   @background;
+    border-radius:                  10px;
+}
+
+textbox-prompt-colon {
+    expand:                         false;
+    str:                            "⏻";
+    border-radius:                  10px;
+    background-color:               @selected;
+    text-color:                     @background;
+    padding:                        10px 15px 10px 15px;
+    font:                           "Source Sans Pro Bold 14";
+}
+
+entry {
+    background-color:               @background-alt;
+    text-color:                     @foreground;
+    placeholder-color:              @foreground;
+    expand:                         true;
+    horizontal-align:               0;
+    placeholder:                    "Power Menu";
+    blink:                          true;
+    border:                         0px 0px 0px 0px;
+    border-color:                   @background;
+    border-radius:                  0px;
+    padding:                        10px;
+}
+
+inputbar {
+    children:                       [ textbox-prompt-colon, prompt ];
+    background-color:               @background-alt;
+    text-color:                     @foreground;
+    expand:                         false;
+    border:                         0px 0px 2px 0px;
+    border-radius:                  10px;
+    border-color:                   @brdr;
+    margin:                         0px 0px 10px 0px;
+    padding:                        0px;
+    position:                       center;
+}
+
+case-indicator {
+    background-color:               @background;
+    text-color:                     @foreground;
+    spacing:                        0;
+}
+
+listview {
+    background-color:               @background;
+    columns:                        1;
+    lines:                          5;
+    spacing:                        10px;
+    cycle:                          false;
+    dynamic:                        true;
+    layout:                         vertical;
+}
+
+mainbox {
+    background-color:               @background;
+    children:                       [ inputbar, listview ];
+    spacing:                        15px;
+    padding:                        20px;
+}
+
+element {
+    background-color:               @background;
+    text-color:                     @foreground;
+    orientation:                    horizontal;
+    border-radius:                  10px;
+    padding:                        15px 10px 15px 10px;
+}
+
+element-icon {
+    background-color:               inherit;
+    text-color:                     inherit;
+    horizontal-align:               0.5;
+    vertical-align:                 0.5;
+    size:                           0px;
+    border:                         0px;
+}
+
+element-text {
+    background-color:               inherit;
+    text-color:                     inherit;
+    font:                           "Source Sans Pro 14";
+    expand:                         true;
+    horizontal-align:               0;  /* Changed from 0.5 to 0 (left align) */
+    vertical-align:                 0.5;
+    margin:                         0px 0px 0px 10px;
+}
+
+element selected {
+    background-color:               @selected;
+    text-color:                     @background;
+    border:                         0px 0px 0px 0px;
+    border-radius:                  10px;
+    border-color:                   @brdr;
+}
+
+element.active,
+element.selected.urgent {
+    background-color:               @on;
+    text-color:                     @background;
+    border-color:                   @on;
+}
+
+element.selected.urgent {
+    border-color:                   @background;
+}
+
+element.urgent,
+element.selected.active {
+    background-color:               @off;
+    text-color:                     @background;
+    border-color:                   @off;
+}
+
+element.selected.active {
+    border-color:                   @background;
+}
