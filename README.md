@@ -13,8 +13,8 @@ Personal dotfiles for Fedora Linux 44 Workstation on an HP Laptop 15-dy2xxx.
 | **Kernel** | 7.0.12-201.fc44.x86_64 |
 | **CPU** | Intel Core i5-1135G7 (4C/8T) @ 2.40 GHz |
 | **GPU** | Intel Iris Xe Graphics |
-| **RAM** | 15 GiB |
-| **Storage** | 500 GB HDD + 1 TB NVMe (Kingston SNV3S1000G) |
+| **RAM** | 16 GiB |
+| **Storage** | 1 TB NVMe (Kingston SNV3S1000G) |
 | **Shell** | Zsh 5.9 (oh-my-zsh + powerlevel10k) |
 
 ## What's Tracked
