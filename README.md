@@ -38,6 +38,16 @@ Personal dotfiles for Fedora Linux 44 Workstation on an HP Laptop 15-dy2xxx.
 - **File Lister:** lsd (icons + tree view)
 - **Info:** fastfetch
 
+### GNOME Extensions (Enabled)
+- **Dash to Dock** — transformed dock
+- **Tiling Assistant** — window tiling & snapping
+- **Transparent Top Bar** — translucent top panel
+- **Vitals** — system monitor in top bar
+- **GSConnect** — phone integration (KDE Connect)
+- **AppIndicator Support** — tray icons
+- **Power Off Options** — shutdown menu
+- **Background Logo** — Fedora logo on desktop
+
 ### Flatpak Apps
 Zen Browser, Obsidian, VS Code, Postman, Spotify, Thunderbird, ONLYOFFICE, Beekeeper Studio, pgAdmin 4, Heroic Games Launcher, LocalSend, Transmission, Flatseal
 
