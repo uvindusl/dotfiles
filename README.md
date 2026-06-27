@@ -51,8 +51,13 @@ Personal dotfiles for Fedora Linux 44 Workstation on an HP Laptop 15-dy2xxx.
 - **Power Off Options** — shutdown menu
 - **Background Logo** — Fedora logo on desktop
 
-### Flatpak Apps
-Zen Browser, Obsidian, VS Code, Postman, Spotify, Thunderbird, ONLYOFFICE, Beekeeper Studio, pgAdmin 4, Heroic Games Launcher, LocalSend, Transmission, Flatseal
+## Installed Apps
+
+### RPM (DNF)
+Kitty, Neovim, Zsh, Tmux, Git, Docker (CE + Compose + Desktop), GitHub CLI (`gh`), Google Chrome, VLC, Firefox, OBS Studio, Discord, Steam, Lutris (via gamescope), LibreOffice (Writer, Calc, Impress), PostgreSQL 18, Java 26, Python (pip + uv), Node.js (via nvm), Neovim, lsd, fastfetch, fzf, fd-find, FFmpeg, GNOME Boxes
+
+### Flatpak
+Zen Browser, Obsidian, VS Code, Postman, Spotify, Thunderbird, ONLYOFFICE, Beekeeper Studio, pgAdmin 4, Heroic Games Launcher, LocalSend, Transmission, Flatseal, Blanket, Extension Manager
 
 ## Keybindings
 
