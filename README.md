@@ -54,6 +54,118 @@ Personal dotfiles for Fedora Linux 44 Workstation on an HP Laptop 15-dy2xxx.
 ### Flatpak Apps
 Zen Browser, Obsidian, VS Code, Postman, Spotify, Thunderbird, ONLYOFFICE, Beekeeper Studio, pgAdmin 4, Heroic Games Launcher, LocalSend, Transmission, Flatseal
 
+## Keybindings
+
+Leader key = `<Space>`
+
+### Neovim — General
+| Key | Action |
+|-----|--------|
+| `<C-s>` | Save file |
+| `<C-q>` | Quit file |
+| `<Space>` | Leader prefix |
+| `x` | Delete char (no yank) |
+| `<C-d>` / `<C-u>` | Scroll down/up, center cursor |
+| `n` / `N` | Next/prev search result, center |
+| `<leader>lw` | Toggle line wrap |
+
+### Neovim — Windows
+| Key | Action |
+|-----|--------|
+| `<leader>v` | Split vertically |
+| `<leader>h` | Split horizontally |
+| `<leader>se` | Equalize split sizes |
+| `<leader>xs` | Close current split |
+| `<C-k/j/h/l>` | Navigate splits |
+| `<Up>` / `<Down>` | Resize height ∓2 |
+| `<Left>` / `<Right>` | Resize width ∓2 |
+
+### Neovim — Buffers & Tabs
+| Key | Action |
+|-----|--------|
+| `<Tab>` / `<S-Tab>` | Next/prev buffer |
+| `<leader>x` | Close buffer |
+| `<leader>b` | New buffer |
+| `<leader>to` | New tab |
+| `<leader>tx` | Close tab |
+| `<leader>tn` / `<leader>tp` | Next/prev tab |
+
+### Neovim — LSP Diagnostics
+| Key | Action |
+|-----|--------|
+| `]d` / `[d` | Next/prev diagnostic |
+| `<leader>d` | Open floating diagnostic |
+| `<leader>q` | Open diagnostic list |
+
+### Neovim — Telescope
+| Key | Action |
+|-----|--------|
+| `<leader><leader>` | Find buffers |
+| `<leader>sf` | Find files |
+| `<leader>sg` | Live grep |
+| `<leader>sw` | Search current word |
+| `<leader>sh` | Search help |
+| `<leader>sk` | Search keymaps |
+| `<leader>ss` | Select Telescope picker |
+| `<leader>sd` | Search diagnostics |
+| `<leader>sr` | Resume last search |
+| `<leader>s.` | Recent files |
+| `<leader>/` | Fuzzy search in buffer |
+
+Inside Telescope: `<C-k/j>` move, `<C-l>` open.
+
+### Neovim — Neo-tree
+| Key | Action |
+|-----|--------|
+| `\` | Reveal current file |
+| `<leader>e` | Toggle file explorer |
+| `<leader>ngs` | Git status (float) |
+| `<CR>` / `l` | Open file |
+| `s` / `S` | Open vertical/horizontal split |
+| `a` / `A` | Add file / directory |
+| `d` / `r` | Delete / rename |
+| `c` / `m` | Copy / move |
+| `y` / `x` / `p` | Copy / cut / paste clipboard |
+| `q` / `R` | Close / refresh |
+| `H` / `/` | Toggle hidden / fuzzy find |
+
+### Neovim — Visual
+| Key | Action |
+|-----|--------|
+| `<` / `>` | Indent, keep selection |
+| `p` | Paste without losing yank |
+
+### Tmux (Prefix = `C-Space`)
+| Key | Action |
+|-----|--------|
+| `Prefix + \` | Split horizontal (same CWD) |
+| `Prefix + -` | Split vertical (same CWD) |
+| `Prefix + h/j/k/l` | Resize pane by 5 |
+| `Prefix + C-h/j/k/l` | Navigate panes (tmux-nvim seamless) |
+| `Prefix + c` | New window (same CWD) |
+| `Prefix + [` | Enter copy mode (vi: `v` select, `y` yank) |
+| `Prefix + P` | Paste buffer |
+
+### Zsh
+| Key | Action |
+|-----|--------|
+| `z <fragment>` | Jump to directory (zoxide) |
+| `zi` | Interactive picker (zoxide) |
+| `Ctrl+R` | Search history (atuin) |
+| `ls` / `l` / `la` / `lt` | `lsd` with icons & tree |
+
+### GNOME Desktop
+| Key | Action |
+|-----|--------|
+| `Super + t` | Launch Kitty terminal |
+| `Super + 1`–`9` | Switch to workspace |
+| `Super + q` | Close window |
+| `Super + h` | Minimize window |
+| `Super + a` | Application view |
+| `Super + s` | Quick settings |
+| `Super + space` | Switch input source |
+| `Print` | Screenshot UI |
+
 ### Neovim Plugins
 - **Telescope** — fuzzy finder (files, grep, buffers, help, diagnostics)
 - **Neo-tree** — file explorer (filesystem, buffers, git status)
