@@ -2,6 +2,9 @@
 
 Personal dotfiles for Fedora Linux 44 Workstation on an HP Laptop 15-dy2xxx.
 
+<img width="1680" height="1050" alt="image" src="https://github.com/user-attachments/assets/27bad031-079e-4df1-87a0-50e5fbed21b7" />
+
+
 ## Machine Specs
 
 | Component | Detail |
