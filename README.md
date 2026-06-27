@@ -54,6 +54,22 @@ Personal dotfiles for Fedora Linux 44 Workstation on an HP Laptop 15-dy2xxx.
 ### Flatpak Apps
 Zen Browser, Obsidian, VS Code, Postman, Spotify, Thunderbird, ONLYOFFICE, Beekeeper Studio, pgAdmin 4, Heroic Games Launcher, LocalSend, Transmission, Flatseal
 
+## Keybindings
+
+### GNOME Desktop
+| Key | Action |
+|-----|--------|
+| `Super + t` | Launch Kitty terminal |
+| `Super + 1`–`9` | Switch to workspace 1–9 |
+| `Super + q` | Close window |
+| `Super + h` | Minimize window |
+| `Super + a` | Application view |
+| `Super + s` | Quick settings |
+| `Super + space` | Switch input source |
+| `Print` | Screenshot UI |
+
+See `KEYBINDINGS.md` for full Neovim, Tmux, Zsh, and GNOME references.
+
 ### Neovim Plugins
 - **Telescope** — fuzzy finder (files, grep, buffers, help, diagnostics)
 - **Neo-tree** — file explorer (filesystem, buffers, git status)
