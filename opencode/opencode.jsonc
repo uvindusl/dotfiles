@@ -1,0 +1,34 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+
+  "mcp": {
+    "obsidian-memory": {
+      "type": "local",
+      "command": [
+        "node",
+        "/home/uvindu/.config/opencode/obsidian-memory-layer-mcp/dist/index.js",
+        "/home/uvindu/Documents/OpenCodeVault"
+      ],
+      "enabled": true
+    }
+  },
+
+  "instructions": [
+    "/home/uvindu/.config/opencode/obsidian-memory-layer-mcp/AGENTS.md"
+  ],
+
+  "command": {
+    "brain": {
+      "description": "Load project memory from Obsidian vault",
+      "template": "{file:/home/uvindu/.config/opencode/obsidian-memory-layer-mcp/commands/brain.md}\n\n$ARGUMENTS"
+    },
+    "save-brain": {
+      "description": "Save current session to Obsidian memory",
+      "template": "{file:/home/uvindu/.config/opencode/obsidian-memory-layer-mcp/commands/save-brain.md}\n\n$ARGUMENTS"
+    },
+    "recall": {
+      "description": "Search past memories in Obsidian vault",
+      "template": "{file:/home/uvindu/.config/opencode/obsidian-memory-layer-mcp/commands/recall.md}\n\n$ARGUMENTS"
+    }
+  }
+}

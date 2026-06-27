@@ -1,0 +1,9 @@
+[Unit]
+Description=Watch dotfiles for changes
+
+[Path]
+PathModified=%h/Documents/dotfiles
+Unit=dotfiles-sync.service
+
+[Install]
+WantedBy=default.target

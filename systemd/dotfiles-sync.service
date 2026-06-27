@@ -1,0 +1,6 @@
+[Unit]
+Description=Auto-sync dotfiles to GitHub
+
+[Service]
+Type=oneshot
+ExecStart=%h/Documents/dotfiles/sync.sh
