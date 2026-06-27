@@ -176,3 +176,44 @@ Prefix = `C-Space`
 | `lt` | `ls --tree` |
 | Up/Down | History autosuggestions |
 | Tab | Autocomplete (zsh-autocomplete) |
+
+---
+
+## GNOME Desktop
+
+### Custom
+| Key | Action |
+|-----|--------|
+| `Super + t` | Launch Kitty terminal |
+
+### Workspaces
+| Key | Action |
+|-----|--------|
+| `Super + 1`–`9` | Switch to workspace 1–9 |
+| `Super + End` | Switch to last workspace |
+| `Shift + Super + Left` | Switch to workspace left |
+| `Shift + Super + Right` | Switch to workspace right |
+| `Super + Shift + Home` | Move window to workspace 1 |
+| `Super + Shift + End` | Move window to last workspace |
+| `Super + Alt + Up/Down` | Shift overview up/down |
+
+### Windows
+| Key | Action |
+|-----|--------|
+| `Super + q` | Close window |
+| `Super + h` | Minimize window |
+| `Super + p` | Switch display mode |
+| `Super + Shift + Escape` | Cancel input capture |
+
+### Shell
+| Key | Action |
+|-----|--------|
+| `Super + a` | Application view (grid) |
+| `Super + s` | Quick settings |
+| `Super + v` / `Super + m` | Message tray |
+| `Super + n` | Focus notification |
+| `Super + space` | Switch input source |
+| `Print` | Screenshot UI |
+| `Shift + Print` | Screenshot (area) |
+| `Alt + Print` | Screenshot window |
+| `Ctrl + Shift + Alt + R` | Screen recording |
