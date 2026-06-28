@@ -171,6 +171,9 @@ Inside Telescope: `<C-k/j>` move, `<C-l>` open.
 | `z <fragment>` | Jump to directory (zoxide) |
 | `zi` | Interactive picker (zoxide) |
 | `Ctrl+R` | Search history (atuin) |
+| `fv` | fzf → open file in nvim |
+| `f` | fzf → copy file path to clipboard |
+| `fcd` | fzf → cd into directory |
 | `ls` / `l` / `la` / `lt` | `lsd` with icons & tree |
 
 ### GNOME Desktop

@@ -36,6 +36,11 @@ alias la='ls -a'
 alias lla='ls -la'
 alias lt='ls --tree'
 
+# FZF helpers
+fv() { nvim "$(find . -type f | fzf)" }
+f() { echo "$(find . -type f | fzf)" | wl-copy }
+fcd() { cd "$(find . -type d | fzf)" && l }
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
