@@ -68,6 +68,15 @@ Zen Browser, Obsidian, VS Code, Postman, Spotify, Thunderbird, ONLYOFFICE, Beeke
 
 Leader key = `<Space>`
 
+### Neovim — OpenCode (AI)
+| Key | Mode | Action |
+|-----|------|--------|
+| `<leader>oa` | N/X | Ask OpenCode with `@this:` context |
+| `<leader>os` | N/X | Select OpenCode action |
+| `go` | N/X | Append range to OpenCode |
+| `goo` | N | Append line to OpenCode |
+| `<S-C-u>` / `<S-C-d>` | N | Scroll OpenCode up/down |
+
 ### Neovim — General
 | Key | Action |
 |-----|--------|
