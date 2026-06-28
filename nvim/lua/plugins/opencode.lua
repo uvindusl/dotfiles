@@ -6,11 +6,6 @@ return {
 
     vim.o.autoread = true
 
-    -- Start opencode in a terminal split
-    vim.keymap.set("n", "<leader>oc", function()
-      vim.cmd("vsplit | terminal opencode --port")
-    end, { desc = "Start OpenCode terminal" })
-
     -- Ask with context
     vim.keymap.set({ "n", "x" }, "<leader>oa", function()
       require("opencode").ask("@this: ")
@@ -21,7 +16,7 @@ return {
       require("opencode").select()
     end, { desc = "Select OpenCode action" })
 
-    -- Operator mode (go + motion = append range to opencode)
+    -- Operator mode (go + motion = append range)
     vim.keymap.set({ "n", "x" }, "go", function()
       return require("opencode").operator("@this ")
     end, { desc = "Append range to OpenCode", expr = true })

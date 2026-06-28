@@ -71,7 +71,6 @@ Leader key = `<Space>`
 ### Neovim — OpenCode (AI)
 | Key | Mode | Action |
 |-----|------|--------|
-| `<leader>oc` | N | Start `opencode --port` in terminal split |
 | `<leader>oa` | N/X | Ask OpenCode with `@this:` context |
 | `<leader>os` | N/X | Select OpenCode action / prompt |
 | `go` | N/X | Append range to OpenCode |
