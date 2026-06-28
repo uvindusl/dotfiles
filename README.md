@@ -28,6 +28,7 @@ Personal dotfiles for Fedora Linux 44 Workstation on an HP Laptop 15-dy2xxx.
 | **Tmux** | `tmux/tmux.conf` | Terminal multiplexer + TPM plugins |
 | **Atuin** | `atuin/config.toml` | Shell history search |
 | **Opencode** | `opencode/opencode.jsonc` | AI coding assistant MCP config |
+| **GitHub Dash** | `gh-dash/config.yml` | PR/issues/notifications TUI |
 | **Scripts** | `scripts/` | Personal utility scripts |
 
 ## Software Stack
