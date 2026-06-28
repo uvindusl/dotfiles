@@ -71,11 +71,12 @@ Leader key = `<Space>`
 ### Neovim — OpenCode (AI)
 | Key | Mode | Action |
 |-----|------|--------|
+| `<leader>oc` | N | Start `opencode --port` in terminal split |
 | `<leader>oa` | N/X | Ask OpenCode with `@this:` context |
-| `<leader>os` | N/X | Select OpenCode action |
+| `<leader>os` | N/X | Select OpenCode action / prompt |
 | `go` | N/X | Append range to OpenCode |
 | `goo` | N | Append line to OpenCode |
-| `<S-C-u>` / `<S-C-d>` | N | Scroll OpenCode up/down |
+| `<leader>ou` / `<leader>od` | N | Scroll OpenCode up/down |
 
 ### Neovim — General
 | Key | Action |
