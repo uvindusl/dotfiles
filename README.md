@@ -196,6 +196,7 @@ Inside Telescope: `<C-k/j>` move, `<C-l>` open.
 - **Lualine** — statusline
 - **Gitsigns** — git decorations in gutter
 - **Indent-blankline** — indentation guides
+- **OpenCode** — AI assistant inside Neovim
 - **Discord Presence** — shows nvim status on Discord
 
 ## Setup
