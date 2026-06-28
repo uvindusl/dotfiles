@@ -25,5 +25,7 @@ require('lazy').setup({
     require 'plugins.indent-blankline',
     require 'plugins.misc',
     require 'plugins.cord',
-    require 'plugins.opencode'
+    require 'plugins.opencode',
+    require 'plugins.cursor',
+    require 'plugins.neoscroll'
 })
