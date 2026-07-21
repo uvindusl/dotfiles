@@ -27,6 +27,8 @@ alias l='ls -l'
 alias la='ls -a'
 alias lla='ls -la'
 alias lt='ls --tree'
+alias n='nvim'
+alias ida='./Scripts/idafree.sh'
 
 # FZF helpers
 fv() { nvim "$(find . -type f | fzf)" }

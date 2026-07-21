@@ -30,6 +30,15 @@ return {
       cond = hide_in_width,
     }
 
+    local opencode = {
+      function()
+        return require("opencode").statusline()
+      end,
+      cond = function()
+        return package.loaded["opencode"] and require("opencode").statusline() ~= ""
+      end,
+    }
+
     local diff = {
       'diff',
       colored = false,
@@ -53,7 +62,7 @@ return {
         lualine_a = { mode },
         lualine_b = { 'branch' },
         lualine_c = { filename },
-        lualine_x = { diagnostics, diff, { 'encoding', cond = hide_in_width }, { 'filetype', cond = hide_in_width } },
+        lualine_x = { opencode, diagnostics, diff, { 'encoding', cond = hide_in_width }, { 'filetype', cond = hide_in_width } },
         lualine_y = { 'location' },
         lualine_z = { 'progress' },
       },
